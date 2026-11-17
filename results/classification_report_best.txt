@@ -1,0 +1,10 @@
+Ensemble: stacking
+
+              precision    recall  f1-score   support
+
+          no     0.9521    0.8651    0.9065      7308
+         yes     0.3822    0.6573    0.4834       928
+
+    accuracy                         0.8417      8236
+   macro avg     0.6672    0.7612    0.6949      8236
+weighted avg     0.8879    0.8417    0.8588      8236

@@ -1,0 +1,8 @@
+model,variant,n_features_kept,n_features_total,average_precision_mean,average_precision_std
+Random Forest,Không chọn (tất cả đặc trưng),62,62,0.4679250483566463,0.015502837354884752
+Random Forest,ANOVA-F top 10%,7,62,0.4450431558311469,0.01860146694417456
+Random Forest,ANOVA-F top 25%,16,62,0.46313713404556445,0.015250946207823392
+Random Forest,ANOVA-F top 50%,31,62,0.4668087295132737,0.015953415819047172
+Random Forest,ANOVA-F top 75%,46,62,0.46895239822708695,0.017386971570818265
+Random Forest,L1 (LinearSVC),42,62,0.46783366435796153,0.014356957512627718
+Random Forest,RandomForest importance (>= median),31,62,0.46560632411030334,0.015016735590259121

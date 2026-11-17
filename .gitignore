@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+models/*.joblib
+.venv/
+data/*.zip
+data/bank+marketing/*.zip
+data/bank+marketing/bank/
+data/bank+marketing/bank-additional/.Rhistory
+data/data.csv

@@ -1,0 +1,31 @@
+{
+  "logreg": {
+    "C": "14.528246637516036"
+  },
+  "decision_tree": {
+    "ccp_alpha": "0.0005808361216819946",
+    "criterion": "entropy",
+    "max_depth": "10",
+    "min_samples_leaf": "36",
+    "min_samples_split": "41"
+  },
+  "random_forest": {
+    "max_depth": "25",
+    "max_features": "sqrt",
+    "min_samples_leaf": "7",
+    "n_estimators": "221"
+  },
+  "hist_gb": {
+    "l2_regularization": "0.07362945281639216",
+    "learning_rate": "0.18631003721334807",
+    "max_depth": "5",
+    "max_iter": "120",
+    "max_leaf_nodes": "16",
+    "min_samples_leaf": "48"
+  },
+  "mlp": {
+    "alpha": "0.07852755494724252",
+    "hidden_layer_sizes": "(128,)",
+    "learning_rate_init": "0.000816845589476017"
+  }
+}

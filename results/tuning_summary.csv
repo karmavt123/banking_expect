@@ -1,0 +1,6 @@
+model,key,metric,default_cv,tuned_cv,gain,best_params
+Logistic Regression,logreg,average_precision,0.446599135821928,0.44663667939962315,3.7543577695142716e-05,"{""C"": ""14.528246637516036""}"
+Decision Tree,decision_tree,average_precision,0.1844441451480522,0.4195611143578975,0.2351169692098453,"{""ccp_alpha"": ""0.0005808361216819946"", ""criterion"": ""entropy"", ""max_depth"": ""10"", ""min_samples_leaf"": ""36"", ""min_samples_split"": ""41""}"
+Random Forest,random_forest,average_precision,0.3747393760503281,0.4679250483566463,0.09318567230631819,"{""max_depth"": ""25"", ""max_features"": ""sqrt"", ""min_samples_leaf"": ""7"", ""n_estimators"": ""221""}"
+Gradient Boosting (HistGB),hist_gb,average_precision,0.4664315940305573,0.46551028510597925,-0.0009213089245780348,"{""l2_regularization"": ""0.07362945281639216"", ""learning_rate"": ""0.18631003721334807"", ""max_depth"": ""5"", ""max_iter"": ""120"", ""max_leaf_nodes"": ""16"", ""min_samples_leaf"": ""48""}"
+MLP (Neural Net),mlp,average_precision,0.4359256418059029,0.45561638959516754,0.019690747789264662,"{""alpha"": ""0.07852755494724252"", ""hidden_layer_sizes"": ""(128,)"", ""learning_rate_init"": ""0.000816845589476017""}"
